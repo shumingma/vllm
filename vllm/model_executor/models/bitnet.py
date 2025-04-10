@@ -433,13 +433,13 @@ class BitNetModel(nn.Module):
         #     ("gate_up_proj", "up_proj", 1),
         # ]
         offline_quant_params = [
-            "q_proj",
-            "k_proj",
-            "v_proj",
-            "gate_proj",
-            "up_proj",
-            "down_proj",
-            "o_proj",
+            # "q_proj",
+            # "k_proj",
+            # "v_proj",
+            # "gate_proj",
+            # "up_proj",
+            # "down_proj",
+            # "o_proj",
         ]
         stacked_params_mapping = []
         params_dict = dict(self.named_parameters(remove_duplicate=False))
